@@ -5,10 +5,10 @@
  * 目前没有对6.0进行适配.
  * 1.添加相应权限:
  <p>
- **<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
- **<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
- **<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
- **<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+ *<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+ *<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+ *<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+ *<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
  * 2.使用方式:
  <p>
  * 1)初始化WifiAdmin
