@@ -352,7 +352,7 @@ public class WifiAdmin {
                     mWifiConnectListener.onConnect(mSSIDFullName);
                     if (mSSIDFullName != null) addNetwork(CreateWifiInfo(mSSIDFullName, "", 0));
 //                    Log.d("tag2", "正在建立连接 --  " + mSSIDFullName + " ---Thread---" + Thread.currentThread().getId());
-                    // FPV_WiFi_B6B574
+               
                 }
                 isStartConnect = true;
             } else {
