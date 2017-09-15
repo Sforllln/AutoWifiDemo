@@ -30,7 +30,7 @@ import java.util.TimerTask;
  * (1)初始化WifiAdmin
  * WifiAdmin.getInstance() //获取实例
  * .Init(this)         //初始化
- * .setConnectWifiName("FPV") //需要连接的WIFI名称
+ * .setConnectWifiName("TP") //需要连接的WIFI名称
  * .addCallBack(this) //设置回调接口监听,没有做非空判断
  * .setTimeOutCount(30)    //设置超时次数
  * .setScanTime(1000);      //设置查询间隔,默认为1s.
@@ -127,15 +127,6 @@ public class WifiAdmin {
         this.mSSIDPart = SSID;
         return Instance;
     }
-
-//
-//    // 构造器
-//    public WifiAdmin(Context context) {
-//        // 取得WifiManager对象
-//        mWifiManager = (WifiManager) context.getApplicationContext().getSystemService(Context.WIFI_SERVICE);
-//        // 取得WifiInfo对象
-//        mWifiInfo = mWifiManager.getConnectionInfo();
-//    }
 
     // 打开WIFI
     WifiAdmin openWifi() {
