@@ -14,7 +14,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- * Created by Jeong Woo on 2017/7/31.
+ * Created by llln on 2017/7/31.
  * 此类为自动连接指定WIFI,主要用于相关测试.
  * 目测只测试过无密码的情况.
  * 提供其他的WIFI信息单并未测试.
